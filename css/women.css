@@ -1,0 +1,88 @@
+body{
+    background-color: #FFFFFF;
+}
+#img{
+    width: 50px;
+    height: 50px;
+}
+h1 {
+    color: #FA0B53;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 50px; 
+    margin: auto;
+    margin-top: 10px;
+    
+}
+a {
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    color: #FA0B53;
+    font-size: 14px;
+ }
+h5 {
+    color: #FA0B53;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    font-size: 25;
+    margin: auto;
+    padding-bottom: 0px;
+    
+}
+#logoIcon {
+    width: 120px;
+    float: center;
+    margin: center;
+    position: absolute;
+    left: 35%;
+    right: 42.42%;
+    top: 3%;
+    
+}
+#womens-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#womens-container div {
+    width: 200px;
+    padding: 10px;
+}
+
+#womens-container img {
+    width: 200px;
+    height: 220px;
+    border-radius: 15px;
+    border-color:#FA0B53;
+    transition: opacity .5s;
+    border-style: solid;
+}
+
+#womens-container img:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+p{
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    font-size: 25;
+}
+h6{
+    color: #FA0B53;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    font-size: 10px;
+    flex-wrap: wrap;
+    align-self: auto;
+    
+}
+@media (max-width: 700px) {
+    #logoIcon{
+        
+        margin-left: -135px;
+        margin-top: -6px;
+        padding-right: 700px;
+     }
+}

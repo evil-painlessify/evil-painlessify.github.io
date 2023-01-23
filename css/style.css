@@ -1,0 +1,188 @@
+  
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: #FA0B53;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 50px;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+h5 {
+    color: #FA0B53;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    font-size: 25;
+    margin: auto;
+    padding-bottom: 20px;
+
+}
+
+#logoIcon {
+    width: 120px;
+    float: center;
+    margin: center;
+    position: absolute;
+    left: 35%;
+    right: 42.42%;
+    top: 3%;
+
+}
+
+p {
+    position: absolute;
+    margin-top: -200px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+    margin-left: 100px;
+}
+
+.homeImages {
+    width: 220px;
+    margin-left: 20px;
+    align-items: center;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+    border-radius: 21px;
+}
+.brandImages {
+    width: 100px;
+    margin-left: 20px;
+    align-items: center;
+    
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 10px rgba(240, 228, 228, 0.25));
+    border-radius: 21px;
+}
+.images {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20%;
+    padding-top: 50px;
+    width: 100px;
+}
+.brands {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20%;
+    padding-top: 10px;
+    width: 100px;
+}
+
+h4 {
+    float: center;
+    margin: center;
+    text-align: center;
+    white-space: nowrap;
+}
+
+h6{
+    color: #FA0B53;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    font-size: 10px;
+    flex-wrap: wrap;
+    align-self: auto;
+    
+}
+
+ @media (max-width: 700px) {
+    #logoIcon {
+        position: absolute;
+        float: left;
+        right: 42.42%;
+        top: 0%;
+        bottom: 26.74%;
+    }
+    body{
+        position: fixed;
+    }
+    h1 {
+        color: #FA0B53;
+        font-family: 'Pacifico', cursive;
+        text-align: center;
+        font-size: 50px;
+        margin: auto;
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: -15px;
+        padding-left: 65px;
+        padding-right: 600px;
+    }
+    h5 {
+        padding-top: 0px;
+        padding-right: 500px;
+        padding-bottom: 0px;
+        margin-right: 30px;
+
+    }
+    h6{
+        float: left;
+        font-size: 8px;
+        margin-left: 10px;
+    }
+    #logoIcon{
+       padding-right: 500px; 
+       margin-left: -315px;
+       margin-top: 20px;
+       padding-right: 700px;
+    }
+    .homeImages {
+        height: 120px;
+        width: 75px;
+        
+       
+        box-sizing: border-box;
+        filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+        border-radius: 21px;
+        
+        
+    }
+    .images {
+        display: flex;
+        flex-direction: row;
+        padding-left: 0px;
+        padding-top: 50px;
+        margin: 0;
+        justify-content: center;
+    }
+    #men {
+        margin-left: 260px;   
+    }
+    .brandImages{
+        
+        width: 50px;
+        
+       margin-left: -20px;
+        box-sizing: border-box;
+        filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+        border-radius: 21px;
+    }
+    #versace{
+        margin-left: -170px;
+        
+    }
+    #louisVuitton{
+        margin-left: -110px;
+    }
+    #calvinKlein{
+        margin-left: -50px;
+    }
+    #gucci{
+        margin-left: 10px;
+    }
+    #burberry{
+        margin-left: 10px;
+    }
+    #tomFord{
+        margin-left: 10px;
+    }
+
+}
